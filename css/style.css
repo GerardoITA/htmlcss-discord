@@ -33,9 +33,9 @@ header {
     background-size: cover;
 }
 main {
-    margin: 100px;
-    height: 2500px;
+    height: 3000px;
     width: auto;
+    position: relative;
 }
 footer {
     height: 500px;
@@ -98,16 +98,60 @@ li>a {
 #header-buttons {
     margin-top: 20px;
 }
+
 /* //////////////////////////////Main////////////////////////////// */
-section {
-    background-color: green;
-    height: 600px;
+.equalsize {
+   height: 2000px;
 }
-.main {
+.big {
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
+.equalsize>section {
+    height: calc(100%/3);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sectiontext {
+    margin-top: 30px;
+    font-size: 30px;
+    height: 400px;
+    width: 600px;
+}
+.grey {
+    background-color: rgb(246, 246, 246);
+}
+.white {
+    background-color: white;
+}
+.small h3 {
+    font-size: 50px;
+}
+.small {
+    margin: 50px auto;
+    height: 25%;
+    width: 40%;
+    text-align: center;
+}
+.medium {
+    height: 50%;
+    margin: auto;
+}
+.stars {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#buttonmain {
+    font-weight: bold;
+    background-color: rgb(114, 137, 218);
+    color: white;
+}
+
 /* //////////////////////////////Footer////////////////////////////// */
 footer>hr {
     width: 75vw;
