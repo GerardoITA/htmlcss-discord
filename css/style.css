@@ -151,7 +151,9 @@ li>a {
     background-color: rgb(114, 137, 218);
     color: white;
 }
-
+#fontsize {
+    font-size: 30px;
+}
 /* //////////////////////////////Footer////////////////////////////// */
 footer>hr {
     width: 75vw;
