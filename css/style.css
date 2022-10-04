@@ -12,19 +12,25 @@
 a {
     text-decoration: none;
 }
+li {
+    list-style: none;
+}
 .button {
     padding: 12px 25px;
     border-radius: 50px;
 }
 .blue {
     color: rgb(114, 137, 218);
+    font-weight: bold;
 }
 /* //////////////////////////////Macrodivisori////////////////////////////// */
 header {
-    height: 500px;
+    height: 600px;
     width: auto;
-    background-color: blue;
     color: white;
+    font-weight: 600;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 main {
     margin: 100px;
@@ -34,8 +40,10 @@ main {
 footer {
     height: 500px;
     width: auto;
-    background-color: brown;
+    padding-top: 100px;
+    background-color: rgb(35, 39, 42);
     color: white;
+    font-weight: 600;
 }
 /* //////////////////////////////Header&Logo////////////////////////////// */
 /* .logo::before {
@@ -48,29 +56,23 @@ li>a {
 }
 .logo {
     margin-top: 15px;
-    background-color: red;
 }
 .topmenu {
     height: 60px;
     display: flex;
     justify-content: space-evenly;
-    background-color: beige;
-}
-.toplink {
-    background-color: blueviolet;
 }
 .toplink li {
     float: left;
     margin: 15px;
-    list-style: none;
 }
-
 .login {
    margin-top: 10px;
    background-color: white;
 }
 /* Headertext////////////////////////////// */
 .headertext {
+    margin-top: 100px;
     padding: 100px 25vw 25vw;
     text-align: center;
 }
@@ -107,13 +109,10 @@ section {
     justify-content: space-evenly;
 }
 /* //////////////////////////////Footer////////////////////////////// */
-section {
-    background-color: green;
-    height: 600px;
-}
 footer>hr {
     width: 75vw;
     margin: 10px auto;
+    color: rgb(114, 137, 218);
 }
 .bottom-menu {
     display: flex;
@@ -123,13 +122,16 @@ footer>hr {
 .social {
     height: 300px;
     width: 15vw;
-    background-color: aqua;
     display: inline-block;
+}
+.social-logos {
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .links {
     height: 300px;
     width: 60vw;
-    background-color: pink;
     display: inline-block;
     display: flex;
     justify-content: space-evenly;
@@ -138,16 +140,23 @@ footer>hr {
 .column {
     height: 100%;
     width: 25%;
-    border: 1px solid black;
     display: inline-block;
     margin: 0;
 }
-.language {
-    font-weight: bold;
-}
 .language::after {
-    content:"\26BA";
+    content:"\21E9";
 }
-.it::before {
-    content: "flag-it   ";
+#itaflag {
+    height: 15px;
+    width: auto;
+}
+/* Signup ////////////////////////////// */
+.signup {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bsignup {
+    background-color: rgb(114, 137, 218);
 }
