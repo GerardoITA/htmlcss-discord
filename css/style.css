@@ -25,12 +25,13 @@ li {
 }
 /* //////////////////////////////Macrodivisori////////////////////////////// */
 header {
-    height: 600px;
+    min-height: 600px;
     width: auto;
     color: white;
     font-weight: 600;
     background-image: url(../img/jumbo.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 main {
     height: 3000px;
@@ -72,8 +73,8 @@ li>a {
 }
 /* Headertext////////////////////////////// */
 .headertext {
-    margin-top: 100px;
-    padding: 100px 25vw 25vw;
+    margin-top: 0px;
+    padding: 300px 25vw 25vw;
     text-align: center;
 }
 .headertext h1 {
